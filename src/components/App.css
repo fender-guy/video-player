@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  padding: 10px;
+}
+
+.hero-video-container h2 {
+  font-size: 17px;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+.playlist-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15%, 1fr));
+  grid-gap: 10px;
+}
+
+.playlist-video-container:hover {
+  cursor: pointer;
+}
+
+.playlist-video-container img {
+  width: 100%;
+}
+
+.playlist-video-container h3 {
+  font-size: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 3px;
+}
+
+.playlist-video-container.playing img {
+  box-sizing: border-box;
+  outline: 3px solid red;
+  outline-offset: -3px;
+}
+
+@media (min-width: 768px) {
+  .App {
+    width: 768px;
+    margin: 0 auto;
+  }
+}

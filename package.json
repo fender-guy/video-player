@@ -1,0 +1,34 @@
+{
+  "name": "summing-grid",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "immutable": "^3.8.2",
+    "lint-staged": "^7.2.0",
+    "normalize.css": "^8.0.0",
+    "prettier": "^1.13.6",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-devtools": "^3.4.1",
+    "redux-immutable": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^3.0.1",
+    "video-react": "^0.13.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  }
+}
