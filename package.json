@@ -30,5 +30,6 @@
       "prettier --single-quote --write",
       "git add"
     ]
-  }
+  },
+  "homepage": "http://fender-guy.github.io/frankly-test/public"
 }
