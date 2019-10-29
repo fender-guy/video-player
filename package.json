@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
+    "gh-pages": "^2.1.1",
     "immutable": "^3.8.2",
     "lint-staged": "^7.2.0",
     "normalize.css": "^8.0.0",
@@ -23,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
@@ -31,5 +34,5 @@
       "git add"
     ]
   },
-  "homepage": "http://fender-guy.github.io/frankly-test/public/index.html"
+  "homepage": "http://fender-guy.github.io/frankly-test"
 }
