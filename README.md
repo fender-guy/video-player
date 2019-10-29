@@ -1,2 +1,2 @@
 A code test that involves making a video playlist:
-[view here](https://fender-guy.github.io/frankly-test/)
+[view here](https://fender-guy.github.io/video-player/)
