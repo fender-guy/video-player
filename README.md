@@ -1,2 +1,2 @@
-# frankly-test
-test for frankly
+A code test that involves making a video playlist:
+[view here](https://fender-guy.github.io/frankly-test/)
